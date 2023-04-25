@@ -17,45 +17,51 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
-  tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
+- title: Mid-Sem Event
+#  title-url: https://example.com/
+  date: 15 Apr 2023
+  subtitle: Say Goodbye to the Mid-Sem Break
+#  tags:
+#    - tag: React
+#    - tag: Javascript
+#    - tag: Ruby
+#    - tag: Rails
   timeline-side: right
 
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
-  tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
+- title: Members' Welcome Party 2023
+#  title-url: https://example.com/
+  date: 18 Mar 2023
+  subtitle: Welcomed Sem 1, 2023 members to the club
+#  tags:
+#    - tag: Flutter
+#    - tag: Dart
+#    - tag: Keycloak
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
+- title: Orientation Meet N Mingle
+#  title-url: https://example.com/
+  date: 3 Mar 2023
+  subtitle: O-Week Day 5 Sem 1 2023
   timeline-side: left
 
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
-  tags:
-    - tag: React
-    - tag: Node
-    - tag: Javascript
+- title: CDU ITCodeFair Cyber Security Challenge
+#  title-url: https://example.com/
+  date: 6 Dec 2022
+  subtitle: CTF event hosted by AISA
+#  tags:
+#    - tag: React
+#    - tag: Node
+#    - tag: Javascript
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
+- title: Mock Cyber Security Challenge
+#  title-url: https://example.com/
+  date: 9 Nov 2022
+  subtitle: In preparation for the IT Code Fair CTF event
+  timeline-side: left
+  
+- title: Members' Welcome Party 2022
+#  title-url: https://example.com/
+  date: 3 Oct 2022
+  subtitle: Welcomed Sem 2, 2022 members
   timeline-side: left

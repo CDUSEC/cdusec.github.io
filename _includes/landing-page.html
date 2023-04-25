@@ -1,7 +1,7 @@
 <div id="landing">
   <div class="landing-title">
-    <h1>Hi, I&#39;m
-      <span class="highlight-title">{{site.username}}</span>,
+    <h1>Hi, we&#39;re
+      <span class="highlight-title">{{site.username}}</span>
     </h1>
     <h1>
       <span id="txt-rotate" data-period="2000"
@@ -56,6 +56,39 @@
         </a>
       {% endif %}
 
+      {% if site.facebook_username != null %}
+        <a class="social-link facebook" aria-label="Our Facebook" target="_blank" rel="noreferrer"
+          href="https://www.facebook.com/{{site.facebook_username}}"
+        >
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#facebook" | prepend: site.baseurl }}"></use>
+            </svg>
+          </div>
+          <span class="label">Facebook</span>
+        </a>
+      {% endif %}
+
+      {% if site.teams_username != null %}
+        <a class="social-link teams" aria-label="CDU Teams" target="_blank" rel="noreferrer"
+          href="https://teams.microsoft.com/l/team/{{site.teams_username}}"
+        >
+		<!--https://teams.microsoft.com/l/team/19%3arnfa4iQpDaGoLwxH_NZqHTSWL5RCIhex-adFsccMP7Y1%40thread.tacv2/conversations?groupId=6bdadcfd-5ea5-445e-9e9f-f1e3f3ecd6b7&tenantId=9f248767-8e1a-42f3-836f-c092ab95ff70-->
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#teams" | prepend: site.baseurl }}"></use>
+            </svg>
+          </div>
+          <span class="label">Teams</span>
+        </a>
+      {% endif %}
+
       {% if site.dev_username != null %}
         <a class="social-link" aria-label="My DEV" target="_blank" rel="noreferrer"
           href="https://dev.to/{{site.dev_username}}"
@@ -74,7 +107,7 @@
 
       {% if site.linkedin_username != null %}
         <a class="social-link linkedin" aria-label="My LinkedIn" target="_blank"
-          rel="noreferrer" href="https://www.linkedin.com/in/{{site.linkedin_username}}"
+          rel="noreferrer" href="https://www.linkedin.com/company/{{site.linkedin_username}}"
         >
           <svg viewBox="0 0 200 200" class="circle">
             <circle cx="100" cy="100" r="80" />
