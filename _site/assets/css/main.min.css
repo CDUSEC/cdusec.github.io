@@ -281,28 +281,27 @@ a:hover {
     fill: #007bb6
 }
 
+.landing-icons .facebook:hover .circle {
+    animation: b 1s ease-in-out forwards, i 1s linear forwards
+}
+
+.landing-icons .facebook:hover .social-svg {
+    fill: #4267B2
+}
+
+.landing-icons .teams:hover .circle {
+    animation: b 1s ease-in-out forwards, j 1s linear forwards
+}
+
+.landing-icons .teams:hover .social-svg {
+    fill: #505AC9 
+}
 .landing-icons .twitter:hover .circle {
     animation: b 1s ease-in-out forwards, g 1s linear forwards
 }
 
 .landing-icons .twitter:hover .social-svg {
     fill: #1da1f2
-}
-
-.landing-icons .facebook:hover .circle {
-    animation: b 1s ease-in-out forwards, j 1s linear forwards
-}
-
-.landing-icons .facebook:hover .social-svg {
-    fill: #4267b2
-}
-
-.landing-icons .teams:hover .circle {
-    animation: b 1s ease-in-out forwards, i 1s linear forwards
-}
-
-.landing-icons .teams:hover .social-svg {
-    fill: #505AC9
 }
 
 @keyframes b {
@@ -350,17 +349,18 @@ a:hover {
     }
 }
 
-@keyframes j {
+@keyframes i {
     to {
-        stroke: #4267b2
+        stroke: #4267B2
     }
 }
 
-@keyframes i {
+@keyframes j {
     to {
         stroke: #505AC9
     }
 }
+
 #skills {
     -ms-flex-align: center;
     align-items: center;

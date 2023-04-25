@@ -8,11 +8,11 @@
 - name: Charles Darwin University
   weight: 5
 
-# - name: JavaScript
-  # weight: 4
+- name: Your Company
+  weight: 4
 
-# - name: Python
-  # weight: 2
+- name: Generous Organisation
+  weight: 3
 
 # - name: HTML5
   # weight: 4
