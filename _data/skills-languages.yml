@@ -9,10 +9,10 @@
   weight: 5
 
 - name: Your Company
-  weight: 4
-
-- name: Generous Organisation
   weight: 3
+
+- name: A Generous Organisation
+  weight: 2
 
 # - name: HTML5
   # weight: 4

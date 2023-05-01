@@ -13,7 +13,7 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: Mock CTF S1-23
+- name: Mock CTF S1, 2023
   descr: "A fun and challenging competition designed to prepare you for this year's IT Code Fair Cyber Security Challenge. Largely based on previous years' challenges, categories include: Web Exploitation, Cryptography, Reverse Engineering and more."
   date: 10 Jun 2023
 #  tags:
@@ -22,7 +22,11 @@
 #    - tag: AngularJS
 #    - tag: Node
 
-#- name: project Y
+- name: Mock CTF S2, 2023
+  descr: "A fun and challenging competition designed to prepare you for this year's IT Code Fair Cyber Security Challenge. Largely based on previous years' challenges, categories include: Web Exploitation, Cryptography, Reverse Engineering and more."
+  date: 11 Nov 2023
+  
+ #- name: project Y
 #  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
 #  demo: https://example.com/
 #  tags:
