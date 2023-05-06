@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
-
+/* sample comment */
 html {
     background: #2b2d2f;
     color: #fff;
@@ -27,7 +27,7 @@ p {
 }
 
 a {
-    color: #ff073a;
+    color: #1555bb;
     text-decoration: none
 }
 
@@ -36,21 +36,21 @@ a:hover {
 }
 
 .highlight-title {
-    color: #ff073a;
-    text-shadow: .25rem .25rem .25rem #ff073a
+    color: #006eff;
+    text-shadow: .25rem .25rem .25rem #1555bb
 }
 
 .highlight-link {
-    box-shadow: inset 0 -.125rem 0 #ff073a;
+    box-shadow: inset 0 -.125rem 0 #1555bb;
     box-sizing: border-box;
-    color: #ff073a;
+    color: #1555bb;
     display: inline-block;
     padding: .125rem;
     transition: all .2s ease-in-out
 }
 
 .highlight-link:hover {
-    box-shadow: inset 0 -2rem 0 0 #ff073a;
+    box-shadow: inset 0 -2rem 0 0 #1555bb;
     color: #fff
 }
 
@@ -90,7 +90,7 @@ a:hover {
 }
 
 .neumorphism-card-big {
-    box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346
+    box-shadow: 3px 3px 2px #161718, -3px -3px 2px #404346
 }
 
 #preloader {
@@ -130,21 +130,21 @@ a:hover {
 
 #preloader .load :first-child {
     animation-delay: -1.5s;
-    background: #fff
+    background: #002443
 }
 
 #preloader .load :nth-child(2) {
     animation-delay: -1s;
-    background: #ff073a
+    background: #1555bb
 }
 
 #preloader .load :nth-child(3) {
     animation-delay: -.5s;
-    background: #fff
+    background: #002443
 }
 
 #preloader .load :last-child {
-    background: #ff073a
+    background: #1555bb
 }
 
 @keyframes a {
@@ -176,7 +176,7 @@ a:hover {
 }
 
 .footer a {
-    color: #ff073a
+    color: #1555bb
 }
 
 #landing,
@@ -270,7 +270,7 @@ a:hover {
 }
 
 .landing-icons .email:hover .social-svg {
-    fill: #d44638
+    fill: #be6628
 }
 
 .landing-icons .linkedin:hover .circle {
@@ -333,7 +333,7 @@ a:hover {
 
 @keyframes e {
     to {
-        stroke: #b23121
+        stroke: #be6628
     }
 }
 
@@ -378,15 +378,15 @@ a:hover {
 }
 
 #skills div[skill-type=language] {
-    color: #e84a5f
+    color: #505AC9
 }
 
 #skills div[skill-type=framework] {
-    color: #ff847c
+    color: #7B83EB
 }
 
 #skills div[skill-type=tool] {
-    color: #fecea8
+    color: #a8c6fe
 }
 
 #skills div[skill-weight="1"] {
@@ -441,7 +441,7 @@ a:hover {
 }
 
 .timeline-wrapper .hexagon {
-    background: #ff073a;
+    background: #1555bb;
     height: .5rem;
     left: 0;
     margin-left: auto;
@@ -464,12 +464,12 @@ a:hover {
 }
 
 .timeline-wrapper .hexagon:before {
-    border-bottom: .25rem solid #ff073a;
+    border-bottom: .25rem solid #1555bb;
     top: -.25rem
 }
 
 .timeline-wrapper .hexagon:after {
-    border-top: .25rem solid #ff073a;
+    border-top: .25rem solid #1555bb;
     bottom: -.25rem
 }
 
@@ -492,7 +492,7 @@ a:hover {
 
 .timeline-wrapper .flag span:after {
     content: "≫";
-    color: #ff073a;
+    color: #1555bb;
     position: absolute;
     opacity: 0;
     right: -1rem;
@@ -538,6 +538,7 @@ a:hover {
 }
 
 .project .name-link-wrapper {
+    color: #1555bb;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: justify;
@@ -546,7 +547,7 @@ a:hover {
 
 .project .name-link-wrapper .links {
     font-size: 1.5rem;
-    margin: 1rem .5rem
+    margin: .5rem .5rem
 }
 
 .project-desc {
@@ -590,7 +591,7 @@ a:hover {
 }
 
 .contact-icons .social-link .social-svg {
-    fill: #ff073a
+    fill: #fff
 }
 
 .contact-icons .social-link:hover {
@@ -599,7 +600,7 @@ a:hover {
 }
 
 .contact-icons .social-link:hover .social-svg {
-    fill: #fff
+    fill: #be6628
 }
 
 .contact-icons .black:hover .social-svg {
@@ -679,7 +680,7 @@ a:hover {
     }
 
     #skills input[type=radio]:checked+.filter-button {
-        color: #ff073a;
+        color: #1555bb;
         font-weight: 600;
         background: linear-gradient(150deg, hsla(0, 0%, 8%, .4) 10%, hsla(0, 0%, 45%, .15) 80%);
         box-shadow: 1px 1px 2px 0 hsla(0, 0%, 82%, .4), -1px -1px 2px rgba(0, 0, 0, .4), inset 3px 3px 2px 0 rgba(0, 0, 0, .4), inset -1px -2px 2px hsla(0, 0%, 82%, .4)
